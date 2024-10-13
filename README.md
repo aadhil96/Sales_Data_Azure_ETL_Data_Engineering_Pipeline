@@ -78,21 +78,15 @@ The architecture follows a layered approach, commonly referred to as the Bronze-
 
 ## Project Screenshots 
 
-### Azure SQL Database
-
+## Azure SQL Database
 ![azure_sql_db](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/50fe0031a4d4c6a4a216ce7bcc2eeb5c230f1ad9/sql_db.JPG)
 
-### Azure Data Lake Storage 
-
+## Azure Data Lake Storage 
 ![Data_Lake](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/a5298e9fde685a398544be82ae04740b02f3de3a/Data%20Lake%2001.JPG)
-
 ![Data_Lake_Bronze](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/a5298e9fde685a398544be82ae04740b02f3de3a/Data%20Lake%20Bronze.JPG)
-
 ![Data_Lake_Silver](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/a5298e9fde685a398544be82ae04740b02f3de3a/Data%20Lake%20Silver.JPG)
-
 ![Data_Lake_Gold](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/a5298e9fde685a398544be82ae04740b02f3de3a/Data%20Lake%20Gold.JPG)
 
-### Azure Data Factory Pipeline
-
+## Azure Data Factory Pipeline
 ![Azure_data](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/a5298e9fde685a398544be82ae04740b02f3de3a/Azure%20Pipeline.JPG)
 

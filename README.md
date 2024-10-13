@@ -76,4 +76,8 @@ The architecture follows a layered approach, commonly referred to as the Bronze-
    - Configure Synapse to query the Gold layer data.  
    - Build reports in Power BI using the data from Synapse.
 
+## Project Screenshots 
+
+### Azure Database
+
 

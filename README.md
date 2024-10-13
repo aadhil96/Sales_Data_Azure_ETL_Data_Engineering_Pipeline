@@ -25,10 +25,10 @@ The architecture follows a layered approach, commonly referred to as the Bronze-
 3. **Data Processing: Azure Databricks**  
    Azure Databricks handles the data transformation in stages:  
    - **Bronze**: Raw data is ingested and stored in its raw form.  
-   - **Silver**: Data cleansing and normalization are performed, ensuring consistency and data quality.
-                 Databricks Notebook File ![bronze](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/b86f95fcfd09d7b937c759b3be09f536c8ab62a2/silver-to-gold.ipynb) 
+   - **Silver**: Data cleansing and normalization are performed, ensuring consistency and data quality.  
+     You can view the Databricks Notebook for this stage [here](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/b86f95fcfd09d7b937c759b3be09f536c8ab62a2/silver-to-gold.ipynb).  
    - **Gold**: Aggregated, business-ready data is stored for analysis and reporting.  
-   Databricks notebooks are used for the transformation logic, allowing scalable, parallel data processing.
+     You can view the Databricks Notebook for this stage [here](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/07ed37f0cffa72aeaa6dc917e1cb5d7d7f9c3bb5/silver-to-gold.ipynb).  
 
 4. **Data Lake Storage**  
    Data is stored in Azure Data Lake at each processing stage (Bronze, Silver, Gold).  

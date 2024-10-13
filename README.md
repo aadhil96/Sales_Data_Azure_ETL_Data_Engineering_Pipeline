@@ -64,18 +64,14 @@ The architecture follows a layered approach, commonly referred to as the Bronze-
 ### Steps to Deploy
 1. **Set up the Azure SQL Database with the AdventureWorks 2019 dataset**:  
    - AdventureWorks 2019 can be downloaded from Microsoft’s SQL Server sample databases repository and uploaded to Azure SQL Database.
-
 2. **Create the Data Lake Storage account**:  
    - Store both raw and processed data.
-
 3. **Deploy Azure Data Factory**:  
    - Create linked services for the Azure SQL Database and Data Lake Storage.  
    - Set up the data pipeline to copy data from SQL Database to Data Lake.
-
 4. **Set up Azure Databricks for data transformation**:  
    - Create notebooks for Bronze, Silver, and Gold data layers.  
    - Connect Databricks to Azure Data Lake.
-
 5. **Deploy Azure Synapse Analytics and Power BI**:  
    - Configure Synapse to query the Gold layer data.  
    - Build reports in Power BI using the data from Synapse.

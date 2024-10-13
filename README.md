@@ -1,4 +1,4 @@
-# Azure Data Engineering Pipeline with Azure Data Factory and Databricks - Sales Data
+# Azure Data Engineering Pipeline with Azure Data Factory and Databricks - AdventureWorks Dataset
 
 ## Project Overview
 This project implements a scalable data pipeline using Azure Data Factory (ADF) for orchestration and Azure Databricks for data preprocessing. The data is sourced from the Microsoft AdventureWorks 2019 dataset, processed in Databricks, and stored in Azure Data Lake. The final data is loaded into Azure Synapse Analytics and visualized using Power BI for reporting.

@@ -37,3 +37,47 @@ The architecture follows a layered approach, commonly referred to as the Bronze-
    - **Azure Synapse Analytics**: Processed data from the Gold layer is loaded into Azure Synapse Analytics for further reporting and analysis.  
    - **Power BI**: The final data is visualized using Power BI, creating dashboards and reports for business users.
 
+## Technology Stack
+- **Azure Data Factory**: For data orchestration and scheduling.
+- **Azure Databricks**: For data preprocessing and transformation.
+- **Azure Data Lake Storage**: To store raw and processed data.
+- **Azure Synapse Analytics**: For structured data storage and SQL querying.
+- **Power BI**: For reporting and dashboarding.
+- **Dataset**: Microsoft AdventureWorks 2019  
+  The AdventureWorks 2019 dataset is a Microsoft-provided sample database that simulates a retail business scenario.  
+  It includes information on customers, sales orders, products, sales territories, employees, purchasing, and business entities.  
+  This dataset is ideal for showcasing how to build modern data engineering pipelines, as it covers many business-related entities and relationships, suitable for building reporting and analytics solutions.
+
+## Getting Started
+
+### Prerequisites
+- **Azure Subscription**
+- **Access to**:  
+  - Azure Data Factory  
+  - Azure Databricks  
+  - Azure Data Lake Storage  
+  - Azure Synapse Analytics  
+  - Power BI
+- **AdventureWorks 2019 dataset**:  
+  Available in Azure SQL Database or available locally for uploading.
+
+### Steps to Deploy
+1. **Set up the Azure SQL Database with the AdventureWorks 2019 dataset**:  
+   - AdventureWorks 2019 can be downloaded from Microsoft’s SQL Server sample databases repository and uploaded to Azure SQL Database.
+
+2. **Create the Data Lake Storage account**:  
+   - Store both raw and processed data.
+
+3. **Deploy Azure Data Factory**:  
+   - Create linked services for the Azure SQL Database and Data Lake Storage.  
+   - Set up the data pipeline to copy data from SQL Database to Data Lake.
+
+4. **Set up Azure Databricks for data transformation**:  
+   - Create notebooks for Bronze, Silver, and Gold data layers.  
+   - Connect Databricks to Azure Data Lake.
+
+5. **Deploy Azure Synapse Analytics and Power BI**:  
+   - Configure Synapse to query the Gold layer data.  
+   - Build reports in Power BI using the data from Synapse.
+
+

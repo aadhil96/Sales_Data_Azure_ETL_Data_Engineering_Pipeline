@@ -80,7 +80,7 @@ The architecture follows a layered approach, commonly referred to as the Bronze-
 
 ### Azure SQL Database
 
-!(azure_sql_db)[https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/50fe0031a4d4c6a4a216ce7bcc2eeb5c230f1ad9/sql_db.JPG]
+![azure_sql_db](https://github.com/aadhil96/Sales_Data_Azure_ETL_Data_Engineering_Pipeline/blob/50fe0031a4d4c6a4a216ce7bcc2eeb5c230f1ad9/sql_db.JPG)
 
 ### Azure Data Lake Storage 
 

@@ -1,3 +1,0 @@
-CREATE LOGIN mrk WITH PASSWORD = 'Ammar200410@'
-
-create user mrk for login mrk
